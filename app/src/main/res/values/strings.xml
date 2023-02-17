@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Healthfy 2.0</string>
+    <string name="get_super_rich_healthy_diet">Get Super Rich Healthy Diet</string>
+    <string name="get_super_rich_food_suggestions_as_per_your_health">Get super rich food suggestions as per your health.</string>
+    <string name="next">Next</string>
+    <string name="track_your_health">Track Your Health</string>
+    <string name="track_your_fitness_here_and_get_diet_chart_accordingly">Track your fitness here and get diet chart accordingly.</string>
+    <string name="get_started">Get started</string>
+    <string name="set_up_your_profile">Set up your profile</string>
+    <string name="tell_us_a_little_about_you">Tell us a little about you.</string>
+    <string name="you_don_t_have_to_eat_less_you_just_have_to_eat_right">You don\'t have to eat less, you just have to eat right</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="already_signed">Sign in</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="create_account">Create Account</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="welcome">Welcome</string>
+    <string name="menu">MENU</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    <string name="lunch">Lunch</string>
+    <string name="mid_meal">Mid-Meal</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="age">Age</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="great_job_you_ve_opened_the_door_to_a_world_of_health_life">Great job! You’ve opened the door to a world of health life.</string>
+    <string name="log_in">Log in</string>
+    <string name="generate_diet_plan">Generate Diet Plan</string>
+    <string name="_170">170</string>
+    <string name="cms">Cms</string>
+</resources>

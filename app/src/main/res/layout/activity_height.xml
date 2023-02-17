@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Height">
+
+    <TextView
+        android:id="@+id/heighttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="00"
+        android:textSize="42sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="36dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="18dp"
+        android:layout_height="425dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/height_image"
+        app:layout_constraintTop_toBottomOf="@id/heighttext">
+
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/heightseekbar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="200"
+            android:min="0"
+            android:progress="0"
+            android:splitTrack="false"
+            app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    <ImageView
+        android:id="@+id/height_image"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:src="@drawable/maleimage"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42sp"
+        android:id="@+id/weighttext"
+        android:text="00"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="18dp"
+        android:layout_height="425dp"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/height_image"
+        app:layout_constraintTop_toBottomOf="@id/weighttext">
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/weightseekbar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="200"
+            android:min="0"
+            android:progress="0"
+            android:splitTrack="false"
+            app:seekBarRotation="CW270"
+            tools:layout_editor_absoluteX="340dp"
+            tools:layout_editor_absoluteY="169dp" />
+        <!-- Rotation: CW90 or CW270 -->
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="55dp"
+        android:text="submit"
+        android:background="@drawable/button2"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
